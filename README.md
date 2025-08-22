@@ -17,12 +17,11 @@ It helps:
 ⚡ Smart Grid Integration → Enable predictive analytics for real-time optimization.
 
 ⚙️** Workflow**
+
 🔹 1. Data Understanding & Exploration
 
 Load .txt dataset into Pandas.
-
 Perform Exploratory Data Analysis (EDA).
-
 Handle missing values and detect anomalies.
 
 
