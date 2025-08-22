@@ -21,7 +21,9 @@ It helps:
 🔹 1. Data Understanding & Exploration
 
 Load .txt dataset into Pandas.
+
 Perform Exploratory Data Analysis (EDA).
+
 Handle missing values and detect anomalies.
 
 
