@@ -16,7 +16,7 @@ It helps:
 
 ⚡ Smart Grid Integration → Enable predictive analytics for real-time optimization.
 
-⚙️ Workflow
+⚙️** Workflow**
 🔹 1. Data Understanding & Exploration
 
 Load .txt dataset into Pandas.
@@ -24,6 +24,7 @@ Load .txt dataset into Pandas.
 Perform Exploratory Data Analysis (EDA).
 
 Handle missing values and detect anomalies.
+
 
 🔹 2. Data Preprocessing
 
@@ -37,6 +38,7 @@ hour, day, month, weekday, is_weekend.
 
 Normalize numeric features where required.
 
+
 🔹 3. Feature Engineering
 
 Shift Global_active_power to create target (next-hour prediction).
@@ -44,6 +46,7 @@ Shift Global_active_power to create target (next-hour prediction).
 Select input features:
 
 Global_active_power, Global_reactive_power, Voltage, hour, is_weekend.
+
 
 🔹 4. Modeling
 
@@ -53,6 +56,7 @@ Model used: RandomForestRegressor (100 trees, random_state=42).
 
 Predict next-hour household power consumption.
 
+
 🔹 5. Evaluation Metrics
 
 MAE (Mean Absolute Error): Average prediction error magnitude.
@@ -61,6 +65,7 @@ RMSE (Root Mean Squared Error): Penalizes large deviations.
 
 R² (Coefficient of Determination): Measures explained variance.
 
+
 🔹 6. Visualization & Insights
 
 Actual vs Predicted energy usage plot.
@@ -68,6 +73,7 @@ Actual vs Predicted energy usage plot.
 Feature importance ranking.
 
 Time-series trends and patterns.
+
 
 📊 Results
 
